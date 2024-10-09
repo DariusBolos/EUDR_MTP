@@ -1,0 +1,35 @@
+[
+  {
+    "customer_id": 1,
+    "customer_name": "Mr. Grace Trantow",
+    "customer_address": "East furt Apt. 813",
+    "region": "Borders",
+    "zip": "51196",
+    "commodity": "Cattle",
+    "import_country": "Tunisia",
+    "year_of_trade": 2023,
+    "last_updated": "Wed Nov 08 2023 23:18:00 GMT+0200"
+  },
+  {
+    "customer_id": 2,
+    "customer_name": "Beulah Leannon",
+    "customer_address": "Suite 073",
+    "region": "Avon",
+    "zip": "52883",
+    "commodity": "Coffee",
+    "import_country": "El Salvador",
+    "year_of_trade": 2022,
+    "last_updated": "Sat Sep 21 2024 08:55:31 GMT+0300"
+  },
+  {
+    "customer_id": 3,
+    "customer_name": "Courtney Hand",
+    "customer_address": "Kling Road",
+    "region": "Bedfordshire",
+    "zip": "66950-9375",
+    "commodity": "Cattle",
+    "import_country": "Armenia",
+    "year_of_trade": 2020,
+    "last_updated": "Wed Apr 24 2024 21:01:15 GMT+0300"
+  }
+]

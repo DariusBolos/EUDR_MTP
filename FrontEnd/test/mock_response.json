@@ -1,0 +1,101 @@
+[
+  {
+    "customer": {
+      "customer_id": 1,
+      "customer_name": "Mr. Grace Trantow",
+      "customer_address": "East furt Apt. 813",
+      "region": "Borders",
+      "zip": "51196",
+      "commodity": "Cattle",
+      "import_country": "Tunisia",
+      "year_of_trade": 2023,
+      "last_updated": "Wed Nov 08 2023 23:18:00 GMT+0200"
+    },
+    "overall_score": 2.32,
+    "categories": [
+      {
+        "id": 1,
+        "name": "Environmental Protection",
+        "risk": 5.5,
+        "weight": 6,
+        "sources": [
+          {
+            "id": 5,
+            "name": "Kuhlman - Wuckert",
+            "risk_description": "Eius voluptatem libero facere voluptatem ea et error. Voluptatem ratione rerum et quam suscipit incidunt ratione assumenda id.",
+            "source_description": "Et quidem eius alias est.",
+            "risk": 41.2
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Human rights",
+        "risk": 0.5,
+        "weight": 78,
+        "sources": [
+          {
+            "id": 9,
+            "name": "Shields - Kuphal",
+            "risk_description": "Sint est tempora ipsa atque veritatis molestias ipsa dolorem.",
+            "source_description": "Omnis ut quis itaque voluptatum eveniet.",
+            "risk": 6.2
+          },
+          {
+            "id": 2,
+            "name": "Yost LLC",
+            "risk_description": "Error fugit aspernatur labore.",
+            "source_description": "Deleniti qui accusantium earum molestiae inventore rerum. Illum est ut et nostrum. Rerum quo et ut quos cupiditate omnis. Sed fugit in voluptatum eligendi similique quo voluptatem.",
+            "risk": 92.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "customer": {
+      "customer_id": 2,
+      "customer_name": "Beulah Leannon",
+      "cusomer_address": "Suite 073",
+      "region": "Avon",
+      "zip": "52883",
+      "commodity": "Coffee",
+      "import_country": "El Salvador",
+      "year_of_trade": 2022,
+      "last_updated": "Sat Sep 21 2024 08:55:31 GMT+0300"
+    },
+    "overall_score": 4.55,
+    "categories": [
+      {
+        "id": 2,
+        "name": "Third party rights",
+        "risk": 55.5,
+        "weight": 9,
+        "sources": [
+          {
+            "id": 2,
+            "name": "Yost LLC",
+            "risk_description": "Error fugit aspernatur labore.",
+            "source_description": "Deleniti qui accusantium earum molestiae inventore rerum. Illum est ut et nostrum. Rerum quo et ut quos cupiditate omnis. Sed fugit in voluptatum eligendi similique quo voluptatem.",
+            "risk": 92.2
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Land use rights",
+        "risk": 10,
+        "weight": 8,
+        "sources": [
+          {
+            "id": 11,
+            "name": "Simonis LLC",
+            "risk_description": "Vero id eos adipisci rerum consequatur est.",
+            "source_description": "Laudantium voluptate nihil aut ut quibusdam et perferendis.",
+            "risk": 66
+          }
+        ]
+      }
+    ]
+  }
+]

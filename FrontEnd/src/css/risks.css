@@ -1,0 +1,118 @@
+.risks-page-wrapper {
+    display: flex;
+    padding: 3rem;
+}
+
+.left-section {
+    position: sticky;
+    top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+    height: 80vh;
+}
+
+.left-section > .detail-list-container > h2 {
+    text-align: center;
+}
+
+.category-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    height: 33%;
+    width: 80%;
+    overflow-y: scroll;
+    border-radius: 1rem;
+}
+
+.category-selector > button {
+    padding: 5px 2rem 5px 2rem;
+    display: flex;
+    width: 100%;
+    border: none;
+}
+
+.category-selector > button > span {
+    flex-grow: 1;
+}
+
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 60%;
+}
+
+.right-section {
+    width: 70%;
+}
+
+.risks-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.risks-container-category-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    span {
+        color: #6b7280;
+        border: solid #6b7280 1px;
+        padding: 0.2rem 0.7rem 0.2rem 0.7rem;
+        border-radius: 10rem;
+        background-color: #f3f4f6;
+    }
+}
+
+.risk-source-card {
+    position: relative;
+    border: solid #334155 1px;
+    border-radius: 1rem;
+    padding: 2rem;
+    overflow: hidden;
+
+    h6 {
+        text-transform: uppercase;
+        font-weight: 300;
+        margin-bottom: 0.3rem;
+        margin-top: 1rem;
+    }
+
+}
+
+.risk-source-card-title {
+    display: flex;
+    align-items: center;
+
+    span {
+        flex-grow: 1;
+    }
+
+    div {
+        color: #172554;
+        background-color: #dbeafe;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        border-radius: 10rem;
+        border: solid black 1px;
+    }
+}
+
+.blurry-circle {
+    position: absolute;
+    top: -12%;
+    left: 15%;
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    filter: opacity(40%) blur(100px);
+    z-index: -1;
+    background-color: #dc2626;
+}
